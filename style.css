@@ -1,0 +1,161 @@
+@font-face {
+	font-family: ElegantLux;
+	src: url("assets/ElegantLux-Mager.otf");
+}
+
+@font-face {
+	font-family: Wawati;
+	src: url("assets/WawaSC-Regular.otf");
+}
+
+body {
+	font-family: ElegantLux;
+	text-align: center;
+}
+
+h1 {
+	font-family: Wawati;
+}
+
+a {
+	text-decoration: none;
+	color: teal;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+em {
+	color: red;
+}
+
+ul {
+	list-style-type: none;
+	width: 94.5%;
+}
+
+table {
+	position: relative;
+	left: 20%;
+	width: 60%;
+	border-collapse: collapse;
+	border-top: 0;
+}
+
+table td, table th {
+  border: 1px solid silver;
+  border-top: 0;
+}
+
+table tr:first-child th {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+  
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+td:hover {
+	background-color: #DDFAFF
+}
+
+.top {
+	position: fixed;
+	height: 210px;
+	width: 100%;
+	left: 50%;
+	margin-left: -50%;
+	top: 0;
+	background-image: url("assets/white.png");
+	z-index: 1;
+}
+
+.imgl {
+	position: fixed;
+	left: 23%;
+	height: 125px;
+	z-index: -1;
+}
+
+.imgr {
+	position: fixed;
+	right: 20%;
+	height: 125px;
+	z-index: -1;
+}
+
+.contents {
+	position: relative;
+	top: 210px;
+	width: 100%;
+	padding-bottom: 210px;
+}
+
+.bottom {
+	position: relative;
+	font-size: 10pt;
+}
+ 
+.background {
+	overflow: hidden;
+	z-index: -1;
+}
+
+.imgstd {
+	width: 200px;
+	height: 120px;
+}
+
+.specials {
+	width: 300px;
+	height: 180px;
+}
+
+.logo {
+	top: 130px;
+	width: 160px;
+	height: 160px;
+}
+
+.moonphases {
+	width: 333px;
+	height: 100px;
+}
+
+#side {
+	position: fixed;
+	top: 210px;
+	float: right;
+	right: 0;
+	width: 20%;
+	height: 100%;
+	font-family: Wawati;
+	overflow: scroll;
+	bottom: -135px;
+	background-color: #DDFAFF;
+	z-index: 1;
+}
+
+#バカ外人 {
+	position: fixed;
+	top: 210px;
+  	left: 0;
+	width: 20%;
+	height: 100%;
+	font-family: Wawati;
+	font-size: 42px;
+	background-color: #DDFAFF;
+}
